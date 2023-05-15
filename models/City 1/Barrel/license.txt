@@ -1,0 +1,11 @@
+Model Information:
+* title:	Metal Barrel Ps1/N64
+* source:	https://sketchfab.com/3d-models/metal-barrel-ps1n64-9524d89a63604263a2a2b4f38ed4db6c
+* author:	jsandwich96 (https://sketchfab.com/jsandwich96)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Metal Barrel Ps1/N64" (https://sketchfab.com/3d-models/metal-barrel-ps1n64-9524d89a63604263a2a2b4f38ed4db6c) by jsandwich96 (https://sketchfab.com/jsandwich96) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

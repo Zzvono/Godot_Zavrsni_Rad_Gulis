@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low Poly Adventure Asset Pack
+* source:	https://sketchfab.com/3d-models/low-poly-adventure-asset-pack-bda2fd1158df425fb703f53d926b1ec6
+* author:	ghostlyfail (https://sketchfab.com/ghostlyfail)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low Poly Adventure Asset Pack" (https://sketchfab.com/3d-models/low-poly-adventure-asset-pack-bda2fd1158df425fb703f53d926b1ec6) by ghostlyfail (https://sketchfab.com/ghostlyfail) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

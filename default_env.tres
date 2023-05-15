@@ -1,0 +1,11 @@
+[gd_resource type="Environment" load_steps=2 format=3 uid="uid://osjgib7gp74g"]
+
+[sub_resource type="Sky" id="1"]
+radiance_size = 4
+
+[resource]
+background_mode = 2
+sky = SubResource("1")
+sky_custom_fov = 106.7
+ambient_light_energy = 0.5
+ssao_radius = 9.53

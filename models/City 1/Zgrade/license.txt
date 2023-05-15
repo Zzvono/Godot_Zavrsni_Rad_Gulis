@@ -1,0 +1,11 @@
+Model Information:
+* title:	buildings
+* source:	https://sketchfab.com/3d-models/buildings-9a09d24934b04a77931d2803847d75a9
+* author:	Elbolillo (https://sketchfab.com/Elbolilloduro)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "buildings" (https://sketchfab.com/3d-models/buildings-9a09d24934b04a77931d2803847d75a9) by Elbolillo (https://sketchfab.com/Elbolilloduro) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,55 @@
+[gd_scene load_steps=7 format=3 uid="uid://cdp6mvfukfc2o"]
+
+[ext_resource type="Texture2D" uid="uid://besu4kye087ib" path="res://scenes/da da.png" id="2_cl8ot"]
+[ext_resource type="Texture2D" uid="uid://bbjbuhd6s6rjx" path="res://scenes/menu/Untitled_Artwork (1).png" id="2_g0t4v"]
+[ext_resource type="Script" path="res://scripts/Gumbi.gd" id="3_shc68"]
+[ext_resource type="AudioStream" uid="uid://bgsf74683vif6" path="res://OST/main menu.wav" id="4_kfnxw"]
+[ext_resource type="Texture2D" uid="uid://c8u32sha80rof" path="res://scenes/menu/Untitled_Artwork (2).png" id="5_pxet3"]
+[ext_resource type="Texture2D" uid="uid://dbi2m1oatu3t8" path="res://scenes/menu/Untitled_Artwork (3).png" id="6_02le3"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 4.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_kfnxw")
+autoplay = true
+mix_target = 1
+
+[node name="DaDa" type="Sprite2D" parent="."]
+position = Vector2(952, 543)
+texture = ExtResource("2_cl8ot")
+
+[node name="Play" type="Button" parent="DaDa"]
+offset_left = -882.0
+offset_top = -195.0
+offset_right = 1174.0
+offset_bottom = 1349.0
+scale = Vector2(0.25, 0.25)
+icon = ExtResource("2_g0t4v")
+flat = true
+icon_alignment = 1
+script = ExtResource("3_shc68")
+
+[node name="Quit" type="Button" parent="DaDa"]
+offset_left = -882.0
+offset_top = 114.0
+offset_right = 1174.0
+offset_bottom = 1658.0
+scale = Vector2(0.25, 0.25)
+icon = ExtResource("5_pxet3")
+flat = true
+script = ExtResource("3_shc68")
+
+[node name="UntitledArtwork(3)" type="Sprite2D" parent="DaDa"]
+position = Vector2(-617, -348)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("6_02le3")
+
+[connection signal="pressed" from="DaDa/Play" to="DaDa/Play" method="_on_playButton_pressed"]
+[connection signal="pressed" from="DaDa/Quit" to="DaDa/Play" method="_on_quit_pressed"]
