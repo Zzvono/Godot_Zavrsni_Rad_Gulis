@@ -1,5 +1,5 @@
 2a60927148abd1d33b818b535e306557
-::res://::1684189510
+::res://::1684192051
 default_env.tres::Environment::1020360201398041592::1681437153::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1678060749::0::1::::<><>::
 gangnam_style.tscn::PackedScene::407500489617136700::1684100395::0::1::::<><>::uid://chgce46yfxhou
@@ -8,8 +8,9 @@ license.txt::TextFile::-1::1666453041::0::1::::<><>::
 map.png::CompressedTexture2D::6570986024222676145::1684066419::1684066431::1::::<><>::
 MinimapFrameLowPoly.png::CompressedTexture2D::3759860485531696750::1684065870::1684065870::1::::<><>::
 mini_map.gd::GDScript::-1::1684068876::0::1::::<>Control<>::
-mini_map.tscn::PackedScene::5550744505406039613::1684100421::0::1::::<><>::uid://bttkl86mrue4u<>res://mini_map.gd
+mini_map.tscn::PackedScene::5550744505406039613::1684191658::0::1::::<><>::uid://bttkl86mrue4u<>res://mini_map.gd
 mothman.glb::PackedScene::5246048940622555220::1684189510::1684189511::1::::<><>::
+mothman.tscn::PackedScene::8667227946352397564::1684191659::0::1::::<><>::uid://yr02js8ercol
 plugin.cfg::TextFile::-1::1684059962::0::1::::<><>::
 ::res://asset pack/::1684100308
 Box017__0.material::StandardMaterial3D::-1::1666453598::0::1::::<><>::
@@ -95,17 +96,17 @@ Material.016_baseColor.jpeg::CompressedTexture2D::5662907467411036621::168174463
 Material_baseColor.jpeg::CompressedTexture2D::3588637100668673549::1681744639::1681744643::1::::<><>::
 ::res://OST/::1681743896
 main menu.wav::AudioStreamWAV::2845074848066872625::1681743595::1681743602::1::::<><>::
-::res://scenes/::1684101840
-+fash.gd::GDScript::-1::1683927744::0::1::::<>CharacterBody3D<>::
+::res://scenes/::1684191659
++fash.gd::GDScript::-1::1684191568::0::1::::<>CharacterBody3D<>::
 da da.png::CompressedTexture2D::2705601548222169641::1683641810::1683641810::1::::<><>::
 desert.gd::GDScript::-1::1683642452::0::1::::<>MeshInstance3D<>::
 MeshInstance3D.gd::GDScript::-1::1683491195::0::1::::<>MeshInstance3D<>::
 NPCTEST.gd::GDScript::-1::1683491195::0::1::::<>RefCounted<>::
 NPCTEST.tscn::PackedScene::2562368786829960309::1682542566::0::1::::<><>::
 Title screen.gdshader::Shader::-1::1683491492::0::1::::<><>::
-Title screen.tscn::PackedScene::5016278332550461748::1684100420::0::1::::<><>::uid://besu4kye087ib<>uid://bbjbuhd6s6rjx<>res://scripts/Gumbi.gd<>uid://bgsf74683vif6<>uid://c8u32sha80rof<>uid://dbi2m1oatu3t8
+Title screen.tscn::PackedScene::5016278332550461748::1684191658::0::1::::<><>::uid://besu4kye087ib<>uid://bbjbuhd6s6rjx<>res://scripts/Gumbi.gd<>uid://bgsf74683vif6<>uid://c8u32sha80rof<>uid://dbi2m1oatu3t8
 World.gdshader::Shader::-1::1682544406::0::1::::<><>::
-World.tscn::PackedScene::4274638929206195264::1684101840::0::1::::<><>::uid://bl27m314fjj52<>uid://bgsf74683vif6<>uid://bbukdyg5806ay<>uid://wpv60e0tpvg2<>uid://clc27lnj1s1nl<>uid://dryncag61s66o<>uid://c0vbgd3klo5kf
+World.tscn::PackedScene::4274638929206195264::1684191658::0::1::::<><>::uid://bl27m314fjj52<>uid://bgsf74683vif6<>uid://bbukdyg5806ay<>uid://wpv60e0tpvg2<>uid://clc27lnj1s1nl<>uid://dvqp8isp8e15i<>uid://c0vbgd3klo5kf<>res://scenes/+fash.gd
 ::res://scenes/menu/::1683642005
 Untitled_Artwork (1).png::CompressedTexture2D::2475285733720190661::1683641745::1683641746::1::::<><>::
 Untitled_Artwork (2).png::CompressedTexture2D::7132110011034394813::1683641745::1683641746::1::::<><>::
