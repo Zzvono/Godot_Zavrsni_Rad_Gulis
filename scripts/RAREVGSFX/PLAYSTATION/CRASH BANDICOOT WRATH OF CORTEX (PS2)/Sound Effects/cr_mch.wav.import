@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cy3fjoxam1poi"
+path="res://.godot/imported/cr_mch.wav-4b94ad5b5735bf909067e93b5e9c0f07.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/CRASH BANDICOOT WRATH OF CORTEX (PS2)/Sound Effects/cr_mch.wav"
+dest_files=["res://.godot/imported/cr_mch.wav-4b94ad5b5735bf909067e93b5e9c0f07.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bisdoxqjfdvb4"
+path="res://.godot/imported/Select Beep.wav-5a4554d68cfdfb9c41812e9bb5ca4754.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/SEGA/A BUGS LIFE (GENESIS)/Select Beep.wav"
+dest_files=["res://.godot/imported/Select Beep.wav-5a4554d68cfdfb9c41812e9bb5ca4754.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

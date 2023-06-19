@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b0il4pdeybdp8"
+path="res://.godot/imported/BANK_00_INSTR_0094_SND_0000.wav-b9463d25c5811b4348c4b6f84b98c43e.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/ROAD RASH 64/BANK_00_INSTR_0094_SND_0000.wav"
+dest_files=["res://.godot/imported/BANK_00_INSTR_0094_SND_0000.wav-b9463d25c5811b4348c4b6f84b98c43e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

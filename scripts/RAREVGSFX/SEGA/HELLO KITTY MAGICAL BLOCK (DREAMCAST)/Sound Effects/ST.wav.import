@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bgq8nv1txam1l"
+path="res://.godot/imported/ST.wav-c39e5c8561d9130f990910675fb4fb2e.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/SEGA/HELLO KITTY MAGICAL BLOCK (DREAMCAST)/Sound Effects/ST.wav"
+dest_files=["res://.godot/imported/ST.wav-c39e5c8561d9130f990910675fb4fb2e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ckfpixtc5c0rr"
+path="res://.godot/imported/Break.wav-1b8b5d417078d94e17e78c77124ac37b.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/SEGA/A BUGS LIFE (GENESIS)/Break.wav"
+dest_files=["res://.godot/imported/Break.wav-1b8b5d417078d94e17e78c77124ac37b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

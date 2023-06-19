@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b4ad1x3dc5rsy"
+path="res://.godot/imported/sfx_8.wav-83bbe93c301325214a8350e059dadf61.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/SEGA/MEAN BEAN MACHINE (GENESIS)/sfx_8.wav"
+dest_files=["res://.godot/imported/sfx_8.wav-83bbe93c301325214a8350e059dadf61.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c1eg2eh8o6tjg"
+path="res://.godot/imported/GAME12.HBS_00012.wav-9dfebea637ed90acf0178feca0ea016b.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/PARTY GIRLS (PS2)/Sound Effects/GAME12.HBS_00012.wav"
+dest_files=["res://.godot/imported/GAME12.HBS_00012.wav-9dfebea637ed90acf0178feca0ea016b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

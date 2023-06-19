@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bhcrmhis5s063"
+path="res://.godot/imported/Spin.wav-9a59937fb01c0026259f60d15ea03ace.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/SPEEDY GONZALES (SNES)/Speedy Gonzales/Spin.wav"
+dest_files=["res://.godot/imported/Spin.wav-9a59937fb01c0026259f60d15ea03ace.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

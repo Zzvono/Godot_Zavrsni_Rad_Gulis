@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ce57o7sdqme3n"
+path="res://.godot/imported/LEVEL23.SND63.wav-016335a1d73edc4da5ac3d7aaa786dcc.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/ALIEN HOMINID (PS2)/Levels/LEVEL23.SND63.wav"
+dest_files=["res://.godot/imported/LEVEL23.SND63.wav-016335a1d73edc4da5ac3d7aaa786dcc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

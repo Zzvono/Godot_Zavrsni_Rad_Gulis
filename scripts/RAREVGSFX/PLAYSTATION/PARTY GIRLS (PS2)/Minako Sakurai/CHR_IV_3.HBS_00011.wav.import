@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cyg42u76bomem"
+path="res://.godot/imported/CHR_IV_3.HBS_00011.wav-0331059a28e2e49352f3d717947fb278.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/PARTY GIRLS (PS2)/Minako Sakurai/CHR_IV_3.HBS_00011.wav"
+dest_files=["res://.godot/imported/CHR_IV_3.HBS_00011.wav-0331059a28e2e49352f3d717947fb278.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

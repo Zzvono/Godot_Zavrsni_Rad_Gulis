@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bakupo1scd1gq"
+path="res://.godot/imported/CHR_VO_9.HBS_00011.wav-a12e4c1373d3852f81a7d4ac70cef86a.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/PARTY GIRLS (PS2)/MC/CHR_VO_9.HBS_00011.wav"
+dest_files=["res://.godot/imported/CHR_VO_9.HBS_00011.wav-a12e4c1373d3852f81a7d4ac70cef86a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

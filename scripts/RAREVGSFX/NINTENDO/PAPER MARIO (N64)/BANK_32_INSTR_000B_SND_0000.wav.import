@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://crsg6x0431qp8"
+path="res://.godot/imported/BANK_32_INSTR_000B_SND_0000.wav-88df8a4c4bfa17b742f07426564adf95.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/PAPER MARIO (N64)/BANK_32_INSTR_000B_SND_0000.wav"
+dest_files=["res://.godot/imported/BANK_32_INSTR_000B_SND_0000.wav-88df8a4c4bfa17b742f07426564adf95.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

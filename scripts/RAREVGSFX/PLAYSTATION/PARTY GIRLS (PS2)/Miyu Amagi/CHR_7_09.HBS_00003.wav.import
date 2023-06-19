@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bwydbmayjrufi"
+path="res://.godot/imported/CHR_7_09.HBS_00003.wav-144ad1e865a69b72c06246fe84cdfdde.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/PARTY GIRLS (PS2)/Miyu Amagi/CHR_7_09.HBS_00003.wav"
+dest_files=["res://.godot/imported/CHR_7_09.HBS_00003.wav-144ad1e865a69b72c06246fe84cdfdde.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

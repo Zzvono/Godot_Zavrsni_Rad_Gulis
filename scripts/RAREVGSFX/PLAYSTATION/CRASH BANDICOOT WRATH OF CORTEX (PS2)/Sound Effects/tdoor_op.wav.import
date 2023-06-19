@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://depqig40cenlr"
+path="res://.godot/imported/tdoor_op.wav-b6aace82d42d77080bacfab43de62419.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/CRASH BANDICOOT WRATH OF CORTEX (PS2)/Sound Effects/tdoor_op.wav"
+dest_files=["res://.godot/imported/tdoor_op.wav-b6aace82d42d77080bacfab43de62419.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

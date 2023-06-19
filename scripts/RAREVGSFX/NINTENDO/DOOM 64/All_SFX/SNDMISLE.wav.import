@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dc65b50mos7y4"
+path="res://.godot/imported/SNDMISLE.wav-f904e27e9bc390b7b5b50b9abaec86e4.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/DOOM 64/All_SFX/SNDMISLE.wav"
+dest_files=["res://.godot/imported/SNDMISLE.wav-f904e27e9bc390b7b5b50b9abaec86e4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cbi012lowtomq"
+path="res://.godot/imported/thunder_4.wav-dff639c39367cb18d27ce62321756732.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/SEGA/MEAN BEAN MACHINE (GENESIS)/thunder_4.wav"
+dest_files=["res://.godot/imported/thunder_4.wav-dff639c39367cb18d27ce62321756732.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

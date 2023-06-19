@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ctf27884pg1qa"
+path="res://.godot/imported/Thud.wav-699d6b90fe533d82a76190622bfb5113.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/SEGA/A BUGS LIFE (GENESIS)/Thud.wav"
+dest_files=["res://.godot/imported/Thud.wav-699d6b90fe533d82a76190622bfb5113.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

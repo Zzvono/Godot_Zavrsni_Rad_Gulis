@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://3hfr8d4vbnnd"
+path="res://.godot/imported/Skid.wav-877e256200592a08dc5a18b74e36cccd.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/SPEEDY GONZALES (SNES)/Speedy Gonzales/Skid.wav"
+dest_files=["res://.godot/imported/Skid.wav-877e256200592a08dc5a18b74e36cccd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

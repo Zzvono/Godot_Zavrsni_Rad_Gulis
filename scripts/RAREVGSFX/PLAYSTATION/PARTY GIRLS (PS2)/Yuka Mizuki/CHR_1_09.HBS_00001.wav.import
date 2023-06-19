@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cr8uc42mjicju"
+path="res://.godot/imported/CHR_1_09.HBS_00001.wav-4342b954c37616e8222ffc2eb1ec80a7.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/PARTY GIRLS (PS2)/Yuka Mizuki/CHR_1_09.HBS_00001.wav"
+dest_files=["res://.godot/imported/CHR_1_09.HBS_00001.wav-4342b954c37616e8222ffc2eb1ec80a7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

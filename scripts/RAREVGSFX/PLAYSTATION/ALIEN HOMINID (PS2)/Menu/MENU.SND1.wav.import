@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dhav5pgy8qwmi"
+path="res://.godot/imported/MENU.SND1.wav-2f8a5cc8ebdb924e69fd6db9ee8b5ff8.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/ALIEN HOMINID (PS2)/Menu/MENU.SND1.wav"
+dest_files=["res://.godot/imported/MENU.SND1.wav-2f8a5cc8ebdb924e69fd6db9ee8b5ff8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

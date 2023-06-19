@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cdwqtrg55vpar"
+path="res://.godot/imported/Complete.wav-0cd96e701921914700ef51faa758cde6.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/WIPEOUT 64/Voices/Complete.wav"
+dest_files=["res://.godot/imported/Complete.wav-0cd96e701921914700ef51faa758cde6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

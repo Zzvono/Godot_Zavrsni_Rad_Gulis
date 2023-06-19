@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dr6l083kcky46"
+path="res://.godot/imported/055.wav-55d33d6bcc5376a9cc2a4090aa728a46.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/MOJIB RIBBON (PS2)/Mojib-Ribbon sounds/Voice 1/055.wav"
+dest_files=["res://.godot/imported/055.wav-55d33d6bcc5376a9cc2a4090aa728a46.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

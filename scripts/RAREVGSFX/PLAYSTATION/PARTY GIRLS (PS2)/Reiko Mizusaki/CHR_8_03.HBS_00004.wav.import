@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bykcpcfy7qdoe"
+path="res://.godot/imported/CHR_8_03.HBS_00004.wav-284e4a4c936ad756ae060d972c41fe4c.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/PARTY GIRLS (PS2)/Reiko Mizusaki/CHR_8_03.HBS_00004.wav"
+dest_files=["res://.godot/imported/CHR_8_03.HBS_00004.wav-284e4a4c936ad756ae060d972c41fe4c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

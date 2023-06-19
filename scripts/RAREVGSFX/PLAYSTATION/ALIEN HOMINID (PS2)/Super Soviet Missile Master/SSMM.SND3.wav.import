@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://clxitnhel0xrh"
+path="res://.godot/imported/SSMM.SND3.wav-d3645cfd15a70fe8ed0643746a4b6d88.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/ALIEN HOMINID (PS2)/Super Soviet Missile Master/SSMM.SND3.wav"
+dest_files=["res://.godot/imported/SSMM.SND3.wav-d3645cfd15a70fe8ed0643746a4b6d88.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://8sgb80j5ctky"
+path="res://.godot/imported/ratchet_and_clank_up_your_arsenal_ps2.iso_12706.wav-810ffd1966341b4b6dc6d9f0d671fca1.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/R&C UP YOUR ARSENAL (PS2)/ratchet_and_clank_up_your_arsenal_ps2.iso_12706.wav"
+dest_files=["res://.godot/imported/ratchet_and_clank_up_your_arsenal_ps2.iso_12706.wav-810ffd1966341b4b6dc6d9f0d671fca1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

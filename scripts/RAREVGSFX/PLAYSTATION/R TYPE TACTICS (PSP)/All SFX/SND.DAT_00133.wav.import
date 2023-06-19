@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c342tkgm1dbrg"
+path="res://.godot/imported/SND.DAT_00133.wav-f9cb2b80efdade3d5510341cfc6c7a48.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/R TYPE TACTICS (PSP)/All SFX/SND.DAT_00133.wav"
+dest_files=["res://.godot/imported/SND.DAT_00133.wav-f9cb2b80efdade3d5510341cfc6c7a48.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

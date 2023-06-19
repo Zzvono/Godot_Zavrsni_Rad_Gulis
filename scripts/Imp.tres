@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://dv56bxr66tghr"]
+
+[ext_resource type="Script" path="res://scripts/BaseEnemy.gd" id="1_putku"]
+[ext_resource type="Texture2D" uid="uid://cduoonwvjk07y" path="res://scripts/output-onlineimagetools (3).png" id="2_hf86i"]
+
+[resource]
+script = ExtResource("1_putku")
+name = "Imp"
+texture = ExtResource("2_hf86i")
+health = 100
+damage = 30

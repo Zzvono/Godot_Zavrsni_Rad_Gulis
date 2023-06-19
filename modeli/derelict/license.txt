@@ -1,0 +1,11 @@
+Model Information:
+* title:	Derelict Building
+* source:	https://sketchfab.com/3d-models/derelict-building-d8c2ce370c4d43c5956a716b48c0fbab
+* author:	CN Entertainment (https://sketchfab.com/cn-entertainment)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Derelict Building" (https://sketchfab.com/3d-models/derelict-building-d8c2ce370c4d43c5956a716b48c0fbab) by CN Entertainment (https://sketchfab.com/cn-entertainment) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

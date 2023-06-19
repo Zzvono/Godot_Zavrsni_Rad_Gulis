@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c8ex4qpyh376f"
+path="res://.godot/imported/Chainsaw.wav-00b068f0ea2c90d9d50da46b3e78cb40.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/SEGA/THE TICK (GENESIS)/Chainsaw.wav"
+dest_files=["res://.godot/imported/Chainsaw.wav-00b068f0ea2c90d9d50da46b3e78cb40.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,4 +1,13 @@
+res://scenes/World3.tscn
+res://scenes/World2.tscn
+res://walking_man_world2.tscn
+res://scenes/npc2.tscn
+res://scenes/npc3.tscn
+res://walking_man3.tscn
+res://scripts/mothman.gd
+res://scripts/Area3DPlayer2.gd
+res://Area3DPlayer3.gd
+res://walking_man_world3.tscn
+res://walking_man2.tscn
+res://walking_man.tscn
 res://scenes/World.tscn
-res://scenes/Title screen.tscn
-res://mini_map.tscn
-res://mothman.tscn

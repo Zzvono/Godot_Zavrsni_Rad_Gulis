@@ -1,0 +1,11 @@
+Model Information:
+* title:	Old House - 3D Model
+* source:	https://sketchfab.com/3d-models/old-house-3d-model-8da7d54fee3a4045bf18db50a809a325
+* author:	Cassy (https://sketchfab.com/cassycassy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Old House - 3D Model" (https://sketchfab.com/3d-models/old-house-3d-model-8da7d54fee3a4045bf18db50a809a325) by Cassy (https://sketchfab.com/cassycassy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

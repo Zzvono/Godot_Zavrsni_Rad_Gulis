@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cku5i4et27qrj"
+path="res://.godot/imported/SNDSLOP.wav-581d22d027e251a5a12607129383c2a1.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/DOOM 64/All_SFX/SNDSLOP.wav"
+dest_files=["res://.godot/imported/SNDSLOP.wav-581d22d027e251a5a12607129383c2a1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

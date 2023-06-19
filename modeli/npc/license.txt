@@ -1,0 +1,11 @@
+Model Information:
+* title:	WW1 style Soldier
+* source:	https://sketchfab.com/3d-models/ww1-style-soldier-130e4de814bd48c395b16382e7823fc6
+* author:	The PSX Gun Place (https://sketchfab.com/unusualworldyt)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "WW1 style Soldier" (https://sketchfab.com/3d-models/ww1-style-soldier-130e4de814bd48c395b16382e7823fc6) by The PSX Gun Place (https://sketchfab.com/unusualworldyt) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

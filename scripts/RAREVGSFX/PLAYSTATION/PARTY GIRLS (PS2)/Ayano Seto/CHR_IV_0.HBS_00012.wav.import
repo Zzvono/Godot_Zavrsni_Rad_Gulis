@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dehrnwfccnkmr"
+path="res://.godot/imported/CHR_IV_0.HBS_00012.wav-55f3f0216683b6683566fc5ffd545901.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/PARTY GIRLS (PS2)/Ayano Seto/CHR_IV_0.HBS_00012.wav"
+dest_files=["res://.godot/imported/CHR_IV_0.HBS_00012.wav-55f3f0216683b6683566fc5ffd545901.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://domhcr5kvir4u"
+path="res://.godot/imported/19.wav-420ba529ea67e323fde9fdd90d6b1f9f.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/TAMAGOTCHI (GAMEBOY)/19.wav"
+dest_files=["res://.godot/imported/19.wav-420ba529ea67e323fde9fdd90d6b1f9f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

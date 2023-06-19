@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://icwbwcboawfi"
+path="res://.godot/imported/Round-House.wav-ec1f2427021268d66d0c5e342ad29cad.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/SEGA/THE TICK (GENESIS)/Round-House.wav"
+dest_files=["res://.godot/imported/Round-House.wav-ec1f2427021268d66d0c5e342ad29cad.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

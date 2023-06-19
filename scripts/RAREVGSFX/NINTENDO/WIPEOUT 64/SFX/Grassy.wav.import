@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://db5h5tci8vl3b"
+path="res://.godot/imported/Grassy.wav-fc4ea4aa01a8941c53d48e095288210e.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/WIPEOUT 64/SFX/Grassy.wav"
+dest_files=["res://.godot/imported/Grassy.wav-fc4ea4aa01a8941c53d48e095288210e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

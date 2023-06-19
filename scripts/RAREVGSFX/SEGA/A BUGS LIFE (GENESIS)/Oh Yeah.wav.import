@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c02ky1ool3ry4"
+path="res://.godot/imported/Oh Yeah.wav-c4e35078db52307f522a34059fae45fc.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/SEGA/A BUGS LIFE (GENESIS)/Oh Yeah.wav"
+dest_files=["res://.godot/imported/Oh Yeah.wav-c4e35078db52307f522a34059fae45fc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

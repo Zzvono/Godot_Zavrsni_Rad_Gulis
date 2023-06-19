@@ -1,0 +1,496 @@
+[gd_scene load_steps=22 format=3 uid="uid://hrms0wc16d1o"]
+
+[ext_resource type="Script" path="res://scripts/battle.gd" id="1_b4c6f"]
+[ext_resource type="Resource" uid="uid://c8y3ur4vvfmao" path="res://scripts/PrviMali.tres" id="2_ek1xt"]
+[ext_resource type="Texture2D" uid="uid://bkqh42su5fuvq" path="res://texture/cethiel-desert-edit.png" id="3_2ljyn"]
+[ext_resource type="Texture2D" uid="uid://2vw2k6ea010v" path="res://x2 size/07b.png" id="4_6rwcc"]
+[ext_resource type="FontFile" uid="uid://bynt8gkk8ji4g" path="res://fonts/Avara.otf" id="5_hvmw5"]
+[ext_resource type="AudioStream" uid="uid://ctb5gkxya4jxd" path="res://OST/battle_theme.wav" id="6_ab6ap"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_82j6a"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(1, 1, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ycmtt"]
+bg_color = Color(1, 0, 0, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+expand_margin_left = 5.0
+expand_margin_top = 5.0
+expand_margin_right = 5.0
+expand_margin_bottom = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_03ldi"]
+bg_color = Color(0.498039, 1, 0, 1)
+
+[sub_resource type="Animation" id="Animation_p4i7m"]
+resource_name = "Enemy_Damaged"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Enemy:modulate")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Enemy:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(722, 307), Vector2(730, 295), Vector2(722, 307), Vector2(715, 295), Vector2(722, 307)]
+}
+
+[sub_resource type="Animation" id="Animation_p4cxb"]
+resource_name = "Enemy_attack"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Enemy:size")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(500, 500), Vector2(540, 540), Vector2(500, 500), Vector2(540, 540), Vector2(500, 500), Vector2(540, 540)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(10, 10), Vector2(-10, -10), Vector2(10, -10), Vector2(-10, 10), Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_ind6y"]
+resource_name = "Enemy_attack_shield"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Enemy:size")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(500, 500), Vector2(540, 540), Vector2(500, 500), Vector2(540, 540), Vector2(500, 500), Vector2(540, 540)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8, 1),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(5, 5), Vector2(-5, -5), Vector2(5, -5), Vector2(-5, 5), Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_4fnky"]
+resource_name = "Enemy_death"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Enemy:modulate")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Enemy:position")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(722, 307), Vector2(722, 700)]
+}
+
+[sub_resource type="Animation" id="Animation_4bme8"]
+resource_name = "Enemy_idle"
+length = 2.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Enemy:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6, 1.2, 1.8, 2.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(722, 307), Vector2(710, 307), Vector2(722, 307), Vector2(714, 307), Vector2(722, 307)]
+}
+
+[sub_resource type="Animation" id="Animation_25oph"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Enemy:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Enemy:size")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(500, 500)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera2D:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Enemy:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(722, 307)]
+}
+
+[sub_resource type="Animation" id="Animation_m2a82"]
+resource_name = "Shake"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Camera2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(1, 1.2, 1.4, 1.6, 1.8, 2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(117, 151), Vector2(-105, 127), Vector2(-145, -38), Vector2(90, -65), Vector2(-169, 130)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_tsnce"]
+_data = {
+"Enemy_Damaged": SubResource("Animation_p4i7m"),
+"Enemy_attack": SubResource("Animation_p4cxb"),
+"Enemy_attack_shield": SubResource("Animation_ind6y"),
+"Enemy_death": SubResource("Animation_4fnky"),
+"Enemy_idle": SubResource("Animation_4bme8"),
+"RESET": SubResource("Animation_25oph"),
+"Shake": SubResource("Animation_m2a82")
+}
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b24e2"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(1, 1, 1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w1dub"]
+bg_color = Color(0.639216, 0.639216, 0.639216, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.211765, 0.211765, 0.211765, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vytiu"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_os3qr"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+
+[node name="Battle" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = 3.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_b4c6f")
+Enemy = ExtResource("2_ek1xt")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -218.0
+offset_top = -163.0
+offset_right = 2180.0
+offset_bottom = 1277.0
+texture = ExtResource("3_2ljyn")
+
+[node name="Enemy" type="TextureRect" parent="."]
+layout_mode = 2
+offset_left = 722.0
+offset_top = 307.0
+offset_right = 1222.0
+offset_bottom = 807.0
+texture = ExtResource("4_6rwcc")
+
+[node name="PlayerPanel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -190.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_82j6a")
+
+[node name="PlayerData" type="HBoxContainer" parent="PlayerPanel"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 44.0
+offset_top = -51.0
+offset_right = -43.0
+offset_bottom = 49.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="ProgressBar" type="ProgressBar" parent="PlayerPanel/PlayerData"]
+custom_minimum_size = Vector2(0, 16)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme_override_styles/background = SubResource("StyleBoxFlat_ycmtt")
+theme_override_styles/fill = SubResource("StyleBoxFlat_03ldi")
+step = 1.0
+value = 100.0
+show_percentage = false
+
+[node name="Label" type="Label" parent="PlayerPanel/PlayerData/ProgressBar"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("5_hvmw5")
+theme_override_font_sizes/font_size = 35
+text = "HP: 100/100"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_ab6ap")
+autoplay = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Enemy_idle"
+libraries = {
+"": SubResource("AnimationLibrary_tsnce")
+}
+
+[node name="EnemyHealth" type="ProgressBar" parent="."]
+custom_minimum_size = Vector2(0, 16)
+layout_mode = 2
+offset_left = 624.0
+offset_top = 294.0
+offset_right = 1324.0
+offset_bottom = 364.0
+theme_override_styles/background = SubResource("StyleBoxFlat_ycmtt")
+theme_override_styles/fill = SubResource("StyleBoxFlat_03ldi")
+step = 1.0
+value = 100.0
+show_percentage = false
+
+[node name="Label" type="Label" parent="EnemyHealth"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("5_hvmw5")
+theme_override_font_sizes/font_size = 35
+text = "HP: 50/50"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Actions" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 150.0
+grow_horizontal = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_82j6a")
+
+[node name="Actuibs" type="HBoxContainer" parent="Actions"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="Attack" type="Button" parent="Actions/Actuibs"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_default_cursor_shape = 2
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_hvmw5")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_b24e2")
+theme_override_styles/hover = SubResource("StyleBoxFlat_w1dub")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vytiu")
+text = "ATTACK"
+
+[node name="Heal" type="Button" parent="Actions/Actuibs"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_default_cursor_shape = 2
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_hvmw5")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_b24e2")
+theme_override_styles/hover = SubResource("StyleBoxFlat_w1dub")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vytiu")
+text = "HEAL"
+
+[node name="Defend" type="Button" parent="Actions/Actuibs"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_default_cursor_shape = 2
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_hvmw5")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_b24e2")
+theme_override_styles/hover = SubResource("StyleBoxFlat_w1dub")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vytiu")
+text = "DEFEND"
+
+[node name="Run" type="Button" parent="Actions/Actuibs"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_default_cursor_shape = 2
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_hvmw5")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxFlat_b24e2")
+theme_override_styles/hover = SubResource("StyleBoxFlat_w1dub")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vytiu")
+text = "RUN"
+
+[node name="TextBox" type="Panel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 231.0
+offset_top = 38.0
+offset_right = -202.0
+offset_bottom = 361.0
+grow_horizontal = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_os3qr")
+
+[node name="Label" type="Label" parent="TextBox"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("5_hvmw5")
+theme_override_font_sizes/font_size = 60
+text = "You approach the wild beast!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ticker" type="Label" parent="TextBox"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1417.0
+offset_top = 245.0
+offset_right = -37.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("5_hvmw5")
+theme_override_font_sizes/font_size = 55
+text = ">"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+
+[connection signal="pressed" from="Actions/Actuibs/Attack" to="." method="_on_attack_pressed"]
+[connection signal="pressed" from="Actions/Actuibs/Heal" to="." method="_on_heal_pressed"]
+[connection signal="pressed" from="Actions/Actuibs/Defend" to="." method="_on_defend_pressed"]
+[connection signal="pressed" from="Actions/Actuibs/Run" to="." method="_on_run_pressed"]

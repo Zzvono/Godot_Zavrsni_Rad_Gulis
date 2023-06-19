@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://47s8x80k4y2k"
+path="res://.godot/imported/bat_wing.wav-4efea0cddbb30dfb5f13222cb90092ce.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/CRASH BANDICOOT WRATH OF CORTEX (PS2)/Sound Effects/bat_wing.wav"
+dest_files=["res://.godot/imported/bat_wing.wav-4efea0cddbb30dfb5f13222cb90092ce.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

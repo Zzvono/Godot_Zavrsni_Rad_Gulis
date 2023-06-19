@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://cdp6mvfukfc2o"]
 
-[ext_resource type="Texture2D" uid="uid://besu4kye087ib" path="res://scenes/da da.png" id="2_cl8ot"]
+[ext_resource type="Texture2D" uid="uid://besu4kye087ib" path="res://scenes/menu/da da.png" id="2_2o6om"]
 [ext_resource type="Texture2D" uid="uid://bbjbuhd6s6rjx" path="res://scenes/menu/Untitled_Artwork (1).png" id="2_g0t4v"]
 [ext_resource type="Script" path="res://scripts/Gumbi.gd" id="3_shc68"]
 [ext_resource type="AudioStream" uid="uid://bgsf74683vif6" path="res://OST/main menu.wav" id="4_kfnxw"]
@@ -22,34 +22,35 @@ autoplay = true
 mix_target = 1
 
 [node name="DaDa" type="Sprite2D" parent="."]
-position = Vector2(952, 543)
-texture = ExtResource("2_cl8ot")
+position = Vector2(964, 547)
+scale = Vector2(1.00729, 1.01296)
+texture = ExtResource("2_2o6om")
+
+[node name="Title" type="Sprite2D" parent="DaDa"]
+position = Vector2(-639, -340)
+scale = Vector2(0.4, 0.4)
+texture = ExtResource("6_02le3")
+
+[node name="Quit" type="Button" parent="DaDa"]
+offset_left = -904.0
+offset_top = 122.0
+offset_right = 1152.0
+offset_bottom = 1666.0
+scale = Vector2(0.25, 0.25)
+icon = ExtResource("5_pxet3")
+flat = true
+script = ExtResource("3_shc68")
 
 [node name="Play" type="Button" parent="DaDa"]
-offset_left = -882.0
-offset_top = -195.0
-offset_right = 1174.0
-offset_bottom = 1349.0
+offset_left = -904.0
+offset_top = -187.0
+offset_right = 1152.0
+offset_bottom = 1357.0
 scale = Vector2(0.25, 0.25)
 icon = ExtResource("2_g0t4v")
 flat = true
 icon_alignment = 1
 script = ExtResource("3_shc68")
 
-[node name="Quit" type="Button" parent="DaDa"]
-offset_left = -882.0
-offset_top = 114.0
-offset_right = 1174.0
-offset_bottom = 1658.0
-scale = Vector2(0.25, 0.25)
-icon = ExtResource("5_pxet3")
-flat = true
-script = ExtResource("3_shc68")
-
-[node name="UntitledArtwork(3)" type="Sprite2D" parent="DaDa"]
-position = Vector2(-617, -348)
-scale = Vector2(0.4, 0.4)
-texture = ExtResource("6_02le3")
-
-[connection signal="pressed" from="DaDa/Play" to="DaDa/Play" method="_on_playButton_pressed"]
 [connection signal="pressed" from="DaDa/Quit" to="DaDa/Play" method="_on_quit_pressed"]
+[connection signal="pressed" from="DaDa/Play" to="DaDa/Play" method="_on_playButton_pressed"]

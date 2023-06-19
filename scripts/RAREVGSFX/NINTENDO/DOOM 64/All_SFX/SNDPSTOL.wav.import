@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bo76x4ctkxixg"
+path="res://.godot/imported/SNDPSTOL.wav-4588224da8813b349e98cb447127d754.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/DOOM 64/All_SFX/SNDPSTOL.wav"
+dest_files=["res://.godot/imported/SNDPSTOL.wav-4588224da8813b349e98cb447127d754.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

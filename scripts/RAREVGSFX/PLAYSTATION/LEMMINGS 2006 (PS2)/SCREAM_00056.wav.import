@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dlqlc01q314e0"
+path="res://.godot/imported/SCREAM_00056.wav-5464431f2f789ad5c29127e8caa08243.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/LEMMINGS 2006 (PS2)/SCREAM_00056.wav"
+dest_files=["res://.godot/imported/SCREAM_00056.wav-5464431f2f789ad5c29127e8caa08243.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

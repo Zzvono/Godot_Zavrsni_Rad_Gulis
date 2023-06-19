@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ce18ss58jg3y8"
+path="res://.godot/imported/SOUNDS_00239.wav-b8b5319bf9c17b12d8ea2cf7f338a996.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/SPIDERMAN 2 (PS2)/General Sounds/SOUNDS_00239.wav"
+dest_files=["res://.godot/imported/SOUNDS_00239.wav-b8b5319bf9c17b12d8ea2cf7f338a996.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

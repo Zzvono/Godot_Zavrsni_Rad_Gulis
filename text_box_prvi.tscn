@@ -1,0 +1,99 @@
+[gd_scene load_steps=7 format=3 uid="uid://bpylvlbi4nswo"]
+
+[ext_resource type="Script" path="res://text_box_prvi.gd" id="1_h7576"]
+[ext_resource type="FontFile" uid="uid://bynt8gkk8ji4g" path="res://fonts/Avara.otf" id="2_7ugss"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_usr3f"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="Animation" id="Animation_fgs2s"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextboxCointainer/MarginContainer/HBoxContainer/Tekst:visible_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_ymcuw"]
+resource_name = "text animation"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextboxCointainer/MarginContainer/HBoxContainer/Tekst:visible_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 1.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_lhl3u"]
+_data = {
+"RESET": SubResource("Animation_fgs2s"),
+"text animation": SubResource("Animation_ymcuw")
+}
+
+[node name="TextBox" type="CanvasLayer"]
+script = ExtResource("1_h7576")
+
+[node name="TextboxCointainer" type="MarginContainer" parent="."]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 304.0
+grow_horizontal = 2
+theme_override_constants/margin_left = 100
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 100
+theme_override_constants/margin_bottom = 0
+
+[node name="Panel" type="Panel" parent="TextboxCointainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_usr3f")
+
+[node name="MarginContainer" type="MarginContainer" parent="TextboxCointainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 70
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 70
+theme_override_constants/margin_bottom = 50
+
+[node name="Panel" type="Panel" parent="TextboxCointainer/MarginContainer"]
+visible = false
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TextboxCointainer/MarginContainer"]
+layout_mode = 2
+
+[node name="Tekst" type="Label" parent="TextboxCointainer/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme_override_fonts/font = ExtResource("2_7ugss")
+theme_override_font_sizes/font_size = 60
+autowrap_mode = 1
+clip_text = true
+visible_characters = 0
+visible_ratio = 0.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_lhl3u")
+}

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bvr0hy7cqb5gf"
+path="res://.godot/imported/CHR_5_13.HBS_00007.wav-38f80c10e6eee4153e78941a0c95f369.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/PARTY GIRLS (PS2)/Riho Futaba/CHR_5_13.HBS_00007.wav"
+dest_files=["res://.godot/imported/CHR_5_13.HBS_00007.wav-38f80c10e6eee4153e78941a0c95f369.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

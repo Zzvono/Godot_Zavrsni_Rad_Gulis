@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c6g467puxd1f2"
+path="res://.godot/imported/PDAGAMES.SND3.wav-8b10314c9788c5f146ee5453daa5f9be.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/ALIEN HOMINID (PS2)/PDA Game/PDAGAMES.SND3.wav"
+dest_files=["res://.godot/imported/PDAGAMES.SND3.wav-8b10314c9788c5f146ee5453daa5f9be.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

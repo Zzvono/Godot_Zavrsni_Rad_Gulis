@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bjp1yygkv0xj"
+path="res://.godot/imported/Whip.wav-6bcf4b77f993529defe462b141727139.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/SEGA/THE TICK (GENESIS)/Whip.wav"
+dest_files=["res://.godot/imported/Whip.wav-6bcf4b77f993529defe462b141727139.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

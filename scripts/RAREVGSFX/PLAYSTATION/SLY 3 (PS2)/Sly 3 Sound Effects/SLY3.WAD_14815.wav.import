@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://jhlnxnaovxw1"
+path="res://.godot/imported/SLY3.WAD_14815.wav-2de679e18a6fe0e0dd42d37b8eb6faa1.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/SLY 3 (PS2)/Sly 3 Sound Effects/SLY3.WAD_14815.wav"
+dest_files=["res://.godot/imported/SLY3.WAD_14815.wav-2de679e18a6fe0e0dd42d37b8eb6faa1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

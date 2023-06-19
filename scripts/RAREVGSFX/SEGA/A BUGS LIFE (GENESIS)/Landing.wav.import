@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c33qw5vaowt16"
+path="res://.godot/imported/Landing.wav-8306c3ec9ac42bc80478de5a1a900361.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/SEGA/A BUGS LIFE (GENESIS)/Landing.wav"
+dest_files=["res://.godot/imported/Landing.wav-8306c3ec9ac42bc80478de5a1a900361.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

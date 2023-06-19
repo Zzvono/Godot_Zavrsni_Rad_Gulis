@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bmb3vow5mtdok"]
+
+[ext_resource type="Script" path="res://scripts/BaseEnemy.gd" id="1_14amt"]
+[ext_resource type="Texture2D" uid="uid://cjqjcx32fk1ir" path="res://output-onlineimagetools (4).png" id="2_ih3i8"]
+
+[resource]
+script = ExtResource("1_14amt")
+name = "Stingray"
+texture = ExtResource("2_ih3i8")
+health = 70
+damage = 20

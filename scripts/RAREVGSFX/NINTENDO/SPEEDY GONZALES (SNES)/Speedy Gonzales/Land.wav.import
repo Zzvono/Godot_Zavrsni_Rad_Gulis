@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bqb605hnlt8j"
+path="res://.godot/imported/Land.wav-258b329a2d97138ef525f526644eb5fe.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/SPEEDY GONZALES (SNES)/Speedy Gonzales/Land.wav"
+dest_files=["res://.godot/imported/Land.wav-258b329a2d97138ef525f526644eb5fe.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

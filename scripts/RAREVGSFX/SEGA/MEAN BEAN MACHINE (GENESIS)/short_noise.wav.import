@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c2bhecwxf5gn1"
+path="res://.godot/imported/short_noise.wav-f9e18a6ba50962a7649a65ad287f4a37.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/SEGA/MEAN BEAN MACHINE (GENESIS)/short_noise.wav"
+dest_files=["res://.godot/imported/short_noise.wav-f9e18a6ba50962a7649a65ad287f4a37.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

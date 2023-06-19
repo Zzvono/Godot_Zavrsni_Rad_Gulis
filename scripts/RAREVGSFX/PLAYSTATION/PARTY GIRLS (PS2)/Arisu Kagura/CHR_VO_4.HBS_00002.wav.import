@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d0xt724dgyjri"
+path="res://.godot/imported/CHR_VO_4.HBS_00002.wav-23ae8e5a34d62d583f7a4b4ce8767b99.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/PARTY GIRLS (PS2)/Arisu Kagura/CHR_VO_4.HBS_00002.wav"
+dest_files=["res://.godot/imported/CHR_VO_4.HBS_00002.wav-23ae8e5a34d62d583f7a4b4ce8767b99.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

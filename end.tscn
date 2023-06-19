@@ -1,0 +1,186 @@
+[gd_scene load_steps=7 format=3 uid="uid://b0u4axivfmdms"]
+
+[ext_resource type="Script" path="res://Control.gd" id="1_rqfxu"]
+[ext_resource type="FontFile" uid="uid://bynt8gkk8ji4g" path="res://fonts/Avara.otf" id="2_8864d"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_toor5"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="Animation" id="Animation_fgs2s"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextboxCointainer/MarginContainer/HBoxContainer/Tekst:visible_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_ymcuw"]
+resource_name = "text animation"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TextboxCointainer/MarginContainer/HBoxContainer/Tekst:visible_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 1.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_lhl3u"]
+_data = {
+"RESET": SubResource("Animation_fgs2s"),
+"text animation": SubResource("Animation_ymcuw")
+}
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rqfxu")
+
+[node name="TextboxCointainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 304.0
+grow_horizontal = 2
+theme_override_constants/margin_left = 100
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 100
+theme_override_constants/margin_bottom = 0
+
+[node name="Panel" type="Panel" parent="TextboxCointainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_toor5")
+
+[node name="MarginContainer" type="MarginContainer" parent="TextboxCointainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 70
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 70
+theme_override_constants/margin_bottom = 50
+
+[node name="Panel" type="Panel" parent="TextboxCointainer/MarginContainer"]
+visible = false
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TextboxCointainer/MarginContainer"]
+layout_mode = 2
+
+[node name="Tekst" type="Label" parent="TextboxCointainer/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme_override_fonts/font = ExtResource("2_8864d")
+theme_override_font_sizes/font_size = 60
+text = "This is the end of the demo"
+autowrap_mode = 1
+clip_text = true
+visible_characters = 0
+visible_ratio = 0.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_lhl3u")
+}
+
+[node name="Fight1" type="Button" parent="."]
+layout_mode = 2
+offset_left = 139.0
+offset_top = 716.0
+offset_right = 476.0
+offset_bottom = 840.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_fonts/font = ExtResource("2_8864d")
+theme_override_font_sizes/font_size = 100
+text = "Fight 1"
+
+[node name="W1" type="Button" parent="."]
+layout_mode = 2
+offset_left = 141.0
+offset_top = 359.0
+offset_right = 478.0
+offset_bottom = 483.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_fonts/font = ExtResource("2_8864d")
+theme_override_font_sizes/font_size = 100
+text = "World 1"
+
+[node name="w2" type="Button" parent="."]
+layout_mode = 2
+offset_left = 738.0
+offset_top = 356.0
+offset_right = 1075.0
+offset_bottom = 480.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_fonts/font = ExtResource("2_8864d")
+theme_override_font_sizes/font_size = 100
+text = "World 2"
+
+[node name="w3" type="Button" parent="."]
+layout_mode = 2
+offset_left = 1341.0
+offset_top = 362.0
+offset_right = 1678.0
+offset_bottom = 486.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_fonts/font = ExtResource("2_8864d")
+theme_override_font_sizes/font_size = 100
+text = "World 3"
+
+[node name="f2" type="Button" parent="."]
+layout_mode = 2
+offset_left = 734.0
+offset_top = 722.0
+offset_right = 1071.0
+offset_bottom = 846.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_fonts/font = ExtResource("2_8864d")
+theme_override_font_sizes/font_size = 100
+text = "Fight 2"
+
+[node name="f3" type="Button" parent="."]
+layout_mode = 2
+offset_left = 1342.0
+offset_top = 717.0
+offset_right = 1679.0
+offset_bottom = 841.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_fonts/font = ExtResource("2_8864d")
+theme_override_font_sizes/font_size = 100
+text = "Fight 3"
+
+[connection signal="pressed" from="Fight1" to="." method="_on_fight_1_pressed"]
+[connection signal="pressed" from="W1" to="." method="_on_w_1_pressed"]
+[connection signal="pressed" from="w2" to="." method="_on_w_2_pressed"]
+[connection signal="pressed" from="w3" to="." method="_on_w_3_pressed"]
+[connection signal="pressed" from="f2" to="." method="_on_f_2_pressed"]
+[connection signal="pressed" from="f3" to="." method="_on_f_3_pressed"]

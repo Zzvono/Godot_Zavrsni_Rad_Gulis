@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://e4oonedu3qih"
+path="res://.godot/imported/CHR_2_10.HBS_00003.wav-a1ca90df99a6dcd77d41cb2abecb30a3.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/PARTY GIRLS (PS2)/Ryoko Tachibana/CHR_2_10.HBS_00003.wav"
+dest_files=["res://.godot/imported/CHR_2_10.HBS_00003.wav-a1ca90df99a6dcd77d41cb2abecb30a3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

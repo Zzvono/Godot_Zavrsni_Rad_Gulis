@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cded1ilretfgd"
+path="res://.godot/imported/Target Lock.wav-510bd987a50752231cbbacee83c9555e.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/WIPEOUT 64/SFX/Target Lock.wav"
+dest_files=["res://.godot/imported/Target Lock.wav-510bd987a50752231cbbacee83c9555e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

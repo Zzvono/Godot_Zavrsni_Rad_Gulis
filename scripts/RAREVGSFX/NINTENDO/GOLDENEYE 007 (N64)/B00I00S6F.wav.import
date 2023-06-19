@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cddha8jgo3in1"
+path="res://.godot/imported/B00I00S6F.wav-a025b3eb80d6608ab736769346eae3c4.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/GOLDENEYE 007 (N64)/B00I00S6F.wav"
+dest_files=["res://.godot/imported/B00I00S6F.wav-a025b3eb80d6608ab736769346eae3c4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

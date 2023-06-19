@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bo4laisbxcjh"
+path="res://.godot/imported/CHR_6_15.HBS_00002.wav-b388ad531d05c920e21bb054a0aa3cf5.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/PARTY GIRLS (PS2)/Kana Momozono/CHR_6_15.HBS_00002.wav"
+dest_files=["res://.godot/imported/CHR_6_15.HBS_00002.wav-b388ad531d05c920e21bb054a0aa3cf5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

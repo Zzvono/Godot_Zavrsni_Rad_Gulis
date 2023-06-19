@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://77cscj3ld2b7"
+path="res://.godot/imported/birds1.wav-9f8ef241bf82fc39b7e13b91e86ac5eb.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/PLAYSTATION/CRASH BANDICOOT WRATH OF CORTEX (PS2)/Sound Effects/birds1.wav"
+dest_files=["res://.godot/imported/birds1.wav-9f8ef241bf82fc39b7e13b91e86ac5eb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://duneo2duf1ggm"
+path="res://.godot/imported/SNDSGDIE.wav-45e6ef169732e16406c0b85bee5a91ca.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/NINTENDO/DOOM 64/All_SFX/SNDSGDIE.wav"
+dest_files=["res://.godot/imported/SNDSGDIE.wav-45e6ef169732e16406c0b85bee5a91ca.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

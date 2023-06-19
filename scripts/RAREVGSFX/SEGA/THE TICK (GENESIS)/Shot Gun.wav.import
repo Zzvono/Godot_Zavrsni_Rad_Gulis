@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://pua0f453plm"
+path="res://.godot/imported/Shot Gun.wav-f402157391bb7152b3ed09446b99f35e.sample"
+
+[deps]
+
+source_file="res://scripts/RAREVGSFX/SEGA/THE TICK (GENESIS)/Shot Gun.wav"
+dest_files=["res://.godot/imported/Shot Gun.wav-f402157391bb7152b3ed09446b99f35e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
